@@ -1,0 +1,403 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+      .rec-1 img {
+          width: 551px;
+
+      }
+    .rec-1-title{
+        position: absolute;
+        top: 202px;
+        left: 120px;
+    }
+      .products  {
+          display: flex;
+          flex-wrap: wrap;
+      }
+    .products-2  {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .number1 {
+        padding: 20px 30px;
+    }
+    .rec-img {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .drone {
+        top: 60px;
+        left: -1px;
+    }
+    .drone-title {
+        top: 300px;
+        left: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+    .hero-drone img {
+        padding: 50px 0;
+    }
+    .drone-title-start hr {
+        width: 19px;
+        height: 5px;
+        background: #FFFFFF;
+    }
+    .drone-title-start{
+        top: 430px;
+        left: 40px;
+    }
+    .reclama{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-nav {
+        display:none;
+    }
+    .number {
+        display: flex;
+        align-items: center;
+    }
+    .number1 h1 {
+        font-weight: 600;
+        font-size: 30px;
+        color: #2A2D46;
+    }
+
+    .number1 {
+        display: flex;
+        align-items: center;
+flex-wrap: wrap;
+    }
+} 
+
+@media (max-width: 390px) {
+    .container{
+        width: 90%;
+    }
+    .hero-drone img{
+        width: 330px;
+        height: 340px;
+
+
+    }
+    .drone img {
+        width: 330px;
+        height: 170px;
+        margin-left: 5px;
+    }
+    .drone-title {
+        position: absolute;
+        top:280px;
+        left: 45px;
+    }
+    .drone-title h1 {
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+    }
+
+    .drone-title p {
+        font-weight: 200;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .drone-title span {
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    .drone-title-2 a {
+        color: #FFFFFF;
+        font-size: 40px ;
+        top:330px;
+        left: 275px;
+    }
+    .drone-title-start {
+        display: none;
+    }
+    .labels {
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+        flex-wrap: wrap;
+    }
+    .labels h1 {
+        font-weight: 600;
+        font-size: 23px;
+        color: #2A2D46;
+        padding:23px 0;
+    }
+    .labels label {
+        font-weight: 400;
+        font-size: 10px;
+        color: #2A2D46;
+        margin: 0 10px;
+    }
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .rec-1 img {
+        width: 370px;
+    }
+    .rec-1-title{
+        top: 150px;
+        left: 70px;
+
+    }
+    .rec-1-title h1 {
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 121.4%;
+        color: #FFFFFF;
+    }
+    .rec-1-title p {
+        font-weight: 400;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+    .products{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin: 20px 0;
+    }
+    .products-2 {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin: 20px 0;
+    }
+    .number1 {
+        display: flex;
+        align-items: center;
+        margin-left: -30px;
+
+    }
+    .number1 h1 {
+        font-weight: 900;
+        font-size: 19px;
+        color: #2A2D46;
+        padding: 10px;
+    }
+    .number1 p {
+        font-weight: 350;
+        font-size: 80px;
+        color: #2A2D46;
+    }
+    .number {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        width: 790px;
+        flex-wrap: wrap;
+    }
+    .footer-nav a {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 20px 0;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 90%;
+    }
+    .header img {
+        width: 150px;
+    }
+    .hero-title h1 {
+        font-weight: 400;
+        font-size: 36px;
+        color: #2A2D46;
+        line-height: 23px;
+        padding: 20px 0;
+    }
+    .hero-title p {
+        font-weight:400;
+        font-size: 16px ;
+        line-height: 23px;
+        color: #2A2D46;
+        padding: 20px 0;
+    }
+    .hero-drone img{
+        width: 300px;
+        height: 340px;
+
+
+    }
+    .drone img {
+        width: 300px;
+        height: 170px;
+        margin-left: 5px;
+    }
+    .drone-title {
+        position: absolute;
+        top:280px;
+        left: 45px;
+    }
+    .drone-title h1 {
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+    }
+
+    .drone-title p {
+        font-weight: 200;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .drone-title span {
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    .drone-title-2 a {
+        color: #FFFFFF;
+        font-size: 40px ;
+        top:330px;
+        left: 255px;
+    }
+    .drone-title-start {
+        display: none;
+    }
+    .labels {
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+        flex-wrap: wrap;
+    }
+    .labels h1 {
+        font-weight: 600;
+        font-size: 23px;
+        color: #2A2D46;
+        padding:23px 0;
+    }
+    .labels label {
+        font-weight: 400;
+        font-size: 10px;
+        color: #2A2D46;
+        margin: 0 5px;
+    }
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .rec-1 img {
+        width: 350px;
+    }
+    .rec-1-title{
+        top: 150px;
+        left: 70px;
+
+    }
+    .reclama {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .rec-1-title h1 {
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 121.4%;
+        color: #FFFFFF;
+    }
+    .rec-1-title p {
+        font-weight: 400;
+        font-size: 13px;
+        color: #FFFFFF;
+    }
+    .products{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin: 20px 0;
+    }
+    .products-2 {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin: 20px 0;
+    }
+    .number1 {
+        display: flex;
+        align-items: center;
+        margin-left: -30px;
+
+    }
+    .number1 h1 {
+        font-weight: 900;
+        font-size: 19px;
+        color: #2A2D46;
+        padding: 10px;
+    }
+    .number1 p {
+        font-weight: 350;
+        font-size: 80px;
+        color: #2A2D46;
+    }
+    .number {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-nav {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        width: 790px;
+        flex-wrap: wrap;
+    }
+    .footer-nav a {
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 20px 0;
+    }
+    #footer {
+        height: 310px;
+        background: #343A62;
+
+    }
+
+}
+
+
+
+
+
